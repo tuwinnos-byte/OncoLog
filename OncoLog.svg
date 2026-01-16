@@ -1,0 +1,46 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .phone-frame { fill: #f0f4f8; stroke: #2a5c7c; stroke-width: 3 }
+    .app-screen { fill: #ffffff }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="linear-gradient(135deg, #e8f4f8 0%, #c7e3f0 100%)"/>
+
+  <!-- Phone Mockup -->
+  <g transform="translate(500 80)">
+    <rect x="0" y="0" rx="25" width="220" height="400" class="phone-frame"/>
+    <rect x="10" y="10" rx="15" width="200" height="380" class="app-screen"/>
+
+    <!-- App Content -->
+    <g transform="translate(30 30)">
+      <!-- Header -->
+      <text x="80" y="30" font-family="Arial" font-size="20" fill="#2a5c7c">Today's Log</text>
+      
+      <!-- Symptom Tracker -->
+      <rect x="0" y="60" width="160" height="100" rx="10" fill="#f0f8ff"/>
+      <text x="10" y="80" font-size="14" fill="#2a5c7c">Symptom Tracker:</text>
+      <circle cx="20" cy="110" r="5" fill="#87ceeb"/>
+      <circle cx="20" cy="130" r="5" fill="#98fb98"/>
+      
+      <!-- Medication Log -->
+      <rect x="0" y="180" width="160" height="80" rx="10" fill="#fff0f5"/>
+      <text x="10" y="200" font-size="14" fill="#2a5c7c">Medications:</text>
+      <path d="M10 220 L150 220" stroke="#ff7f50" stroke-width="2"/>
+      
+      <!-- Navigation -->
+      <rect x="0" y="300" width="160" height="40" rx="8" fill="#2a5c7c"/>
+      <text x="80" y="325" font-size="16" fill="white" text-anchor="middle">+ New Entry</text>
+    </g>
+  </g>
+
+  <!-- Medical Symbol -->
+  <path d="M200 150 L250 150 L250 200 L300 200 L300 250 L250 250 L250 300 L200 300 L200 250 L150 250 L150 200 L200 200 Z" 
+        fill="#2a5c7c" transform="rotate(45 225 225)"/>
+
+  <!-- Title -->
+  <text x="200" y="360" font-family="Arial" font-size="36" fill="#2a5c7c">
+    <tspan>Oncolog</tspan>
+    <tspan x="200" dy="40" font-size="24">Patient Care Companion App</tspan>
+  </text>
+</svg>
